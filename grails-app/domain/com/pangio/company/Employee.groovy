@@ -9,5 +9,10 @@ class Employee {
     Country country
 
     static constraints = {
+        firstName nullable: false
+        lastName nullable: false
+        salary nullable: false
+        gender nullable: false
+        country nullable: false
     }
 }
